@@ -289,8 +289,8 @@ class MainForm(Frame):
         self.lblTeam.pack()
         self.lblTeam1=Label(self, text="Shreyas Suresh", bg="RoyalBlue1", width = "250", height = "1", font=("Calibri", 13))
         self.lblTeam1.pack()
-        # self.lblTeam2=Label(self, text="Sonam giri", bg="RoyalBlue2", width = "250", height = "1", font=("Calibri", 13))
-        # self.lblTeam2.pack()
+        self.lblTeam2=Label(self, text="Sonam giri", bg="RoyalBlue2", width = "250", height = "1", font=("Calibri", 13))
+        self.lblTeam2.pack()
         # self.lblTeam3=Label(self, text="Pratyush Anand", bg="RoyalBlue2", width = "250", height = "1", font=("Calibri", 13))
         # self.lblTeam3.pack()
         
