@@ -63,4 +63,4 @@ The Health-Care Chatbot System is an intelligent, user-friendly desktop applicat
 - **Convenient Assessment**: A quick and accessible solution for initial health evaluation.
 
 ---
-**new feature**: added streamlit ui to the the chatbot project
+**New feature**: added streamlit ui to the the chatbot project
