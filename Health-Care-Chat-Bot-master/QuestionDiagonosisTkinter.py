@@ -411,3 +411,49 @@ frmMainForm=MainForm(root)
 frmMainForm.pack()
 root.mainloop()
 
+# # Health-Care Chatbot: Overview
+# #This Python-based **Health-Care Chatbot** uses **Tkinter** for GUI, a **Decision Tree Classifier** for disease prediction, and datasets for symptoms and doctor consultations.
+
+# ## Key Components
+
+# ### 1. **Hyperlink Manager**
+# #- Manages clickable links in the chatbot interface.
+# #- Allows users to open doctor consultation links in a web browser.
+
+# ### 2. **Dataset Handling**
+# #- **Training Dataset**: Features represent symptoms, and the target represents diseases.
+# #- **Testing Dataset**: Used for model evaluation.
+# #- **Doctors Dataset**: Maps diseases to doctors' names and consultation links.
+
+# ### 3. **Machine Learning**
+# #- **Classifier**: Decision Tree Classifier trained on the `Training.csv` dataset.
+# #- **Dimensionality Reduction**: Groups symptoms by diseases to reduce redundancies.
+# #- **Encoding**: Encodes disease labels for model training.
+# #- **Data Splitting**: Divides the dataset into training and testing sets.
+
+# ### 4. **Disease Prediction**
+# - Uses the trained model to ask symptom-based questions.
+# - Outputs:
+#   - **Probable Disease**
+#   - **Symptoms Present**
+#   - **Symptoms Required**
+#   - **Confidence Level**
+#   - **Doctor's Details**
+
+# ### 5. **GUI Implementation**
+# - **Main Screen**: Provides login and registration options.
+# - **Login & Registration**:
+#   - Validates user credentials.
+#   - Registers new users by saving credentials in files.
+# - **Chatbot Interface**:
+#   - Displays symptom-related questions.
+#   - Shows diagnosis results with clickable doctor consultation links.
+
+# ### 6. **Features**
+# - **Interactive Questioning**: Users respond with Yes/No to symptom questions.
+# - **Diagnosis Display**: Presents diagnosis results and confidence levels.
+# - **Doctor Consultation**: Suggests doctors with clickable links for further guidance.
+
+# This project integrates machine learning and GUI to provide an interactive healthcare assistant for symptom checking and diagnosis guidance./*
+
+
